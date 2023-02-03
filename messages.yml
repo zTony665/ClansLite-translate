@@ -1,0 +1,80 @@
+clan-invite-sent-successfully: "&eHas enviado con éxito una solicitud a %CLANOWNER%"
+
+#Mensajes de unión a clanes
+clan-join-successful: "&e¡Te has unido con éxito a &6%CLAN%&e!"
+clan-join-failed: "&eFalló la unión a &6%CLAN%&e"
+clan-join-failed-no-valid-clan: "&eFallo al unirse a un clan - ¡no se encontró ningún clan!"
+clan-join-failed-no-invite: "&eFallo al unirse a un clan: ¡no se encontró ninguna invitación!
+clan-join-broadcast-chat: "&6%PLAYER%&e ¡Se ha unido a un clan!\n&e¡El clan al que se ha unido el jugador es &6%CLAN%&e!"
+clan-join-broadcast-title-1: "&6%PLAYER%&e ¡Se ha unido a un clan!"
+clan-join-broadcast-title-2: "&e¡El clan al que se ha unido el jugador es &6%CLAN%&e!"
+
+#Mensajes de abandono de clan
+failed-clan-owner: "&eEres el dueño de un clan, usa &6/clan disband&e."
+clan-leave-successful: "&eHas abandonado &6%CLAN%".
+clan-leave-failed: "&eFalló la salida del clan, por favor inténtalo más tarde".
+
+#Mensajes de expulsión del clan
+clan-member-kick-successful: "&eEl jugador &6%KICKEDPLAYER%&e ha sido expulsado de tu clan".
+clan-kicked-player-message: "&e¡Te han expulsado de &6%CLAN%&e!"
+targeted-player-is-not-in-your-clan: "&eEl jugador &6%KICKEDPLAYER%&e no está en tu clan."
+no-pudo-encontrar-al-jugador-especificado: "&eNo se ha podido encontrar al jugador &6%KICKEDPLAYER%&e. Es posible que no se haya unido antes. Puede que no se haya unido antes".
+must-be-owner-to-kick: "&e¡No eres propietario de un clan!"
+incorrect-kick-command-usage: "&eUnrecognised argument please use &6/clan kick <member>&e."
+failed-cannot-kick-yourself: "&eNo puedes patearte a ti mismo, usa &6/clan leave&e."
+
+#Mensajes de prefijo de clan
+clan-prefix-change-successful: "&e¡Cambio de prefijo de clan exitoso a &6%CLANPREFIX%&e!"
+clan-prefix-too-long: "&ePrefijo de clan demasiado largo - la longitud máxima es &6%CHARMAX% &ecaracteres."
+clan-prefix-too-short: "&ePrefijo de clan demasiado corto - longitud mínima es &6%CHARMIN% &ecaracteres."
+clan-invalid-prefix: "&ePor favor, proporciona un nuevo prefijo. Usa &b/prefijo de clan <prefijo>&e!"
+clan-prefix-already-taken: "&eLo siento pero &6%CLANPREFIX% &e ya está cogido.\n&e¡Por favor, elige otro!"
+clan-prefix-is-banned: "Lo sentimos, pero &6%CLANPREFIX% &e es un &cNombre &e¡PROHIBIDO!\n&e¡Por favor, elige otro!"
+debe-ser-propietario-para-cambiar-prefijo: "&e¡No eres propietario de un clan!"
+
+#Mensajes de la lista de clanes
+no-clans-to-list: "&e¡No se han encontrado clanes!\n&e¡Crea uno usando &b/clan create <name>&e!"
+clans-list-header: "&7----- &6ClansList &7-----&r\n&e&lClanes actuales:&r\n"
+clans-list-footer: "\n&7-----"
+
+#Mensajes de información del clan
+clan-info-header: "&7----- &6Informacion Del Clan &7-----&r\n&eNombre: %CLAN%&r\n&ePrefijo: &7(%CLANPREFIX%&r&7)&r"
+clan-info-propietario-online: "\n\n&eDueño: &a%OWNER%"
+clan-info-owner-offline: "\n\n&eDueño: &c%OWNER%&7&o(Desconectado)"
+clan-info-members-header: "\n\n&eMiembros: &f&o(%NUMBER%)"
+clan-info-members-online: "\n&a%Miembros%\n"
+clan-info-miembros-offline: "\n&c%MEMBER%&7&o(Desconectado)\n"
+clan-info-allies-header: "Clanes Aliados:"
+clan-aliados-miembros: "\n&a%ALLYCLAN%\n"
+clan-info-enemigos-header: "\n\n&eClanes Enemigos:"
+clan-enemigos-miembros: "\n&c%ENEMYCLAN%\n"
+clan-pvp-status-enabled: "\n\n&eFuego Aliado: &a&oActivado"
+clan-pvp-status-disabled: "\n\n&eFuego Aliado: &c&oDesactivado"
+clan-home-set-true: "clan-hogar: &a&o Con Hogar"
+clan-home-set-false: "\n\n&eHogar: &c&oSin Hogar"
+clan-info-footer: "\n&7-----"
+not-in-clan: "&eNo estás en un clan!"
+
+#Mensajes de aliado de clan
+added-clan-to-your-allies: "&eHas añadido con éxito &6%ALLYCLAN% &ea tus aliados!"
+clan-added-to-other-allies: "&6%CLANOWNER% &eha añadido tu clan a sus aliados".
+failed-to-add-clan-to-allies: "&e¡No se ha podido añadir a &6%ALLYOWNER%&e! Asegúrate de que el propietario está conectado".
+failed-clan-yready-your-ally: "&e¡Este clan ya es tu aliado!"
+failed-player-not-clan-owner: "&6%ALLYOWNER%&e ¡no es el dueño de un clan!"
+removed-clan-from-your-allies: "&eHas eliminado con éxito &6%ALLYCLAN%&ede tus aliados!"
+clan-eliminado-de-los-otros-aliados: "&eEl dueño del clan &6%CLANOWNER% &eha eliminado tu clan de sus aliados!"
+failed-to-remove-clan-from-allies: "&e¡No se ha podido eliminar a &6%ALLYOWNER%&e! Asegúrate de que es tu aliado"
+ally-clan-add-owner-offline: "&e¡No se puede añadir a &6%ALLYOWNER%&e! Asegúrate de que el propietario está conectado".
+ally-clan-remove-owner-offline: "¡&eImposible eliminar &6%ALLYOWNER%&e! Asegúrate de que el propietario está conectado".
+incorrect-clan-ally-command-usage: "&eUnrecognised argument please use &6/clan ally [add|remove] <clan-owner>&e."
+failed-cannot-ally-your-own-clan: "&e¡No puedes ser aliado de tu &e&lOWN&r&e clan!"
+clan-ally-max-amount-reached: "&e¡Has alcanzado el límite de cantidad de aliados de clan &a%LIMIT%&e!"
+failed-cannot-ally-enemy-clan: "&e¡No puedes ser aliado de un &c&lENEMY&r &eclan!"
+
+Mensajes de #Clan Enemigo
+added-clan-to-your-enemies: "&e¡Has añadido con éxito &6%ENEMYCLAN% &ea tus enemigos!"
+clan-added-to-other-enemies: "&6%CLANOWNER% &e¡Has añadido tu clan a sus enemigos!"
+failed-to-add-clan-to-enemies: "&e¡No se ha podido añadir a &6%ENEMYOWNER%&e! Asegúrate de que el propietario está conectado".
+failed-clan-already-your-enemy: "&e¡Este clan ya es tu enemigo!"
+failed-enemy-player-not-clan-owner: "&6%ENEMYOWNER%&e ¡no es el dueño del clan!"
+removed-clan-from-your-enemies: "&eHas eliminado con éxito &6%ENEMYCLAN% &ef
