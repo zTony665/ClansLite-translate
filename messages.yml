@@ -77,4 +77,5 @@ clan-added-to-other-enemies: "&6%CLANOWNER% &e¡Has añadido tu clan a sus enemi
 failed-to-add-clan-to-enemies: "&e¡No se ha podido añadir a &6%ENEMYOWNER%&e! Asegúrate de que el propietario está conectado".
 failed-clan-already-your-enemy: "&e¡Este clan ya es tu enemigo!"
 failed-enemy-player-not-clan-owner: "&6%ENEMYOWNER%&e ¡no es el dueño del clan!"
-removed-clan-from-your-enemies: "&eHas eliminado con éxito &6%ENEMYCLAN% &ef
+removed-clan-from-your-enemies: "&eHas eliminado con éxito &6%ENEMYCLAN% &ef"
+!"
